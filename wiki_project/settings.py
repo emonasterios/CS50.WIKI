@@ -25,13 +25,14 @@ SECRET_KEY = 'django-insecure-b_=ygld$-468bz7*&fstox$_9w8b3e&mn5*^(e-l86zk3n&r1e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0', '.cs-us-east1-dogs.cloudshell.dev']
+USE_X_FORWARDED_HOST = True
+CSRF_COOKIE_SECURE = False
 
 # Application definition
 
 INSTALLED_APPS = [
-    'encyclopedia'
+    'encyclopedia',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

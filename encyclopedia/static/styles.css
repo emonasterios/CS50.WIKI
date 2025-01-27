@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.main {
+    padding: 20px;
+    flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.search{
+  display: inline;
+}
+
+.row{
+  flex:1;
+}
